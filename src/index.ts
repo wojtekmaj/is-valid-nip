@@ -1,6 +1,6 @@
 const weights = [6, 5, 7, 2, 3, 4, 5, 6, 7];
 
-export default function isValidNIP(rawNip) {
+export default function isValidNIP(rawNip: string | number): boolean {
   if (!rawNip) {
     return false;
   }
