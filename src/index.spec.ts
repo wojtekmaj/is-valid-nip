@@ -2,6 +2,7 @@ import isValidNIP from './index';
 
 describe('isValidNIP', () => {
   it('returns false for no input', () => {
+    // @ts-expect-error-next-line
     const result = isValidNIP();
 
     expect(result).toBe(false);
