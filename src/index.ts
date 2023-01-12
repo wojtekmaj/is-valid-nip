@@ -15,11 +15,10 @@ export default function isValidNIP(rawNip: string | number): boolean {
 
   // calculate checksum
   let sum = 0;
-  for (let position = 0; position < weights.length; position += 1) {
-    const weight = weights[position];
-    const digit = parseInt(nip[position], 10);
+  weights.forEach((weight, position) => {
+    const digit = Number(nip[position]);
     sum += weight * digit;
-  }
+  });
 
   const checksum = sum % 11;
 
@@ -27,5 +26,5 @@ export default function isValidNIP(rawNip: string | number): boolean {
     return false;
   }
 
-  return checksum === parseInt(nip[9], 10);
+  return checksum === Number(nip[9]);
 }
