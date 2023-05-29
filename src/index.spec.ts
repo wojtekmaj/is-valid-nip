@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import isValidNIP from './index';
+import isValidNIP from './index.js';
 
 describe('isValidNIP', () => {
   it('returns false for no input', () => {
