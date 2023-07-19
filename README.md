@@ -17,15 +17,12 @@ Check if a number is a valid Numer Identyfikacji Podatkowej (NIP).
 
 ## Examples
 
-```js
-> isValidNIP('5252611332');
-< true
+```ts
+isValidNIP('5252611332'); // true
 
-> isValidNIP('525-261-13-32');
-< true
+isValidNIP('525-261-13-32'); // true
 
-> isValidNIP('525-26-11-332');
-< true
+isValidNIP('525-26-11-332'); // true
 ```
 
 ## License
