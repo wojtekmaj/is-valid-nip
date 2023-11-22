@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/is-valid-nip.svg)](https://www.npmjs.com/package/is-valid-nip) ![downloads](https://img.shields.io/npm/dt/is-valid-nip.svg) [![CI](https://github.com/wojtekmaj/is-valid-nip/workflows/CI/badge.svg)](https://github.com/wojtekmaj/is-valid-nip/actions)
+[![npm](https://img.shields.io/npm/v/is-valid-nip.svg)](https://www.npmjs.com/package/is-valid-nip) ![downloads](https://img.shields.io/npm/dt/is-valid-nip.svg) [![CI](https://github.com/wojtekmaj/is-valid-nip/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmaj/is-valid-nip/actions)
 
 # Is-Valid-NIP
 
