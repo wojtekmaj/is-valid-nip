@@ -58,7 +58,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/is-valid-nip.git"
+    "url": "git+https://github.com/wojtekmaj/is-valid-nip.git"
   },
   "funding": "https://github.com/wojtekmaj/is-valid-nip?sponsor=1",
   "packageManager": "yarn@4.0.2"
