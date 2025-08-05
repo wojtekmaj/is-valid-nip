@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+
 import isValidNIP from './index.js';
 
 describe('isValidNIP', () => {
